@@ -11,13 +11,7 @@ var go = function (db){
 	// set up routes
 	//require('./routes')(app);
 
-	var User = db.model('User');
-	User.build({name: 'Shahmeer', email: 'shahmeernavid@gmail.com', password: 'silvermoouse'})
-	.save()
-	.success(function (){console.log('good')})
-	.error(function (){
-		console.log(arguments);
-	})
+	app.get('/', function (req, res){res.send('shahmeer');});
 
 	app.listen(config.port);
 
