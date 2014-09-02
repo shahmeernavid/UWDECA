@@ -1,7 +1,8 @@
 var env = process.env.type || 'development',
 		config = require('./config/' + env),
 		express = require('express'),
-		app = express();
+		app = express(),
+		port = process.env.port || config.port;
 
 var go = function (db){
 
@@ -10,12 +11,12 @@ var go = function (db){
 
 	// set up routes
 	//require('./routes')(app);
-
+h
 	app.get('/', function (req, res){res.send('shahmeer');});
 
-	app.listen(config.port);
+	app.listen(port);
 
-	console.log('Listening on port', config.port);
+	console.log('Listening on port', port);
 
 };
 
