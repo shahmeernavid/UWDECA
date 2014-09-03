@@ -11,7 +11,7 @@ var go = function (db){
 
 	// set up routes
 	//require('./routes')(app);
-h
+
 	app.get('/', function (req, res){res.send('shahmeer');});
 
 	app.listen(port);
