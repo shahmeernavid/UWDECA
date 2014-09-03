@@ -2,7 +2,7 @@ var env = process.env.type || 'development',
 		config = require('./config/' + env),
 		express = require('express'),
 		app = express(),
-		port = process.env.port || config.port;
+		port = process.env.PORT || config.port;
 
 var go = function (db){
 
