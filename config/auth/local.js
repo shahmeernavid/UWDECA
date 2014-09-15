@@ -1,6 +1,7 @@
 var passport = require('passport'),
     LocalStrategy = require('passport-local').Strategy,
-    User = db.model('User');
+    mongoose = require('mongoose'),
+    User = mongoose.model('User');
 
 
 var authorize = function(email, password, done) {

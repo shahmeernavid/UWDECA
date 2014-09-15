@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"cont",
+				"ContentSchema"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"seq",
+				"Sequelize"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"model",
+				"modelName"
+			],
+			[
+				"tme",
+				"timeoutToken"
+			],
+			[
 				"re",
 				"return"
 			],
@@ -62,10 +86,6 @@
 			[
 				"remote",
 				"remote_auth_s3"
-			],
-			[
-				"user",
-				"userAgent"
 			],
 			[
 				"use",
@@ -431,31 +451,19 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "server.js",
-			"settings":
-			{
-				"buffer_size": 236,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "models/user.js",
-			"settings":
-			{
-				"buffer_size": 213,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 187.0,
+		"height": 400.0,
 		"selected_items":
 		[
 			[
-				"insta",
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -463,8 +471,8 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"side",
-				"View: Toggle Side Bar"
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"remove pac",
@@ -499,7 +507,7 @@
 				"About"
 			]
 		],
-		"width": 467.0
+		"width": 475.0
 	},
 	"console":
 	{
@@ -524,6 +532,35 @@
 	],
 	"file_history":
 	[
+		"/Users/shahmeernavid/Desktop/jscms/controllers/user.js",
+		"/Users/shahmeernavid/Desktop/jscms/package.json",
+		"/Users/shahmeernavid/Desktop/jscms/.gitignore",
+		"/Users/shahmeernavid/Desktop/jscms/routes.js",
+		"/Users/shahmeernavid/Desktop/jscms/models/page.js",
+		"/Users/shahmeernavid/Desktop/jscms/db_init.js",
+		"/Users/shahmeernavid/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/shahmeernavid/Desktop/jscms/config/auth/local.js",
+		"/Users/shahmeernavid/Desktop/jscms/config/passport.js",
+		"/Users/shahmeernavid/Desktop/jscms/models/post.js",
+		"/Users/shahmeernavid/Desktop/jscms/server.js",
+		"/Users/shahmeernavid/Desktop/jscms/jscms.sublime-project",
+		"/Users/shahmeernavid/Desktop/jscms/config/env/development.json",
+		"/Users/shahmeernavid/Desktop/jscms/models/user.js",
+		"/Users/shahmeernavid/Desktop/jscms/models/content.js",
+		"/Users/shahmeernavid/Desktop/jscms/public/index.html",
+		"/Users/shahmeernavid/Desktop/jscms/public/components/jquery/src/core/var/rsingleTag.js",
+		"/Users/shahmeernavid/Desktop/jscms/public/components/jquery/src/intro.js",
+		"/Users/shahmeernavid/Desktop/jscms/.bowerrc",
+		"/Users/shahmeernavid/Desktop/jscms/controllers/users.js",
+		"/Users/shahmeernavid/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/shahmeernavid/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/shahmeernavid/Desktop/jscms/config/auth_strategies/local.js",
+		"/Users/shahmeernavid/Desktop/jscms/config/development.json",
+		"/Users/shahmeernavid/Desktop/jscms/models/untitled",
+		"/Users/shahmeernavid/.zshrc",
+		"/Users/shahmeernavid/Desktop/jscms/npm-debug.log",
+		"/Users/shahmeernavid/Desktop/jscms/globals.js",
+		"/Users/shahmeernavid/Desktop/jscms/models/init.js",
 		"/Users/shahmeernavid/Desktop/jscms/node_modules/sequelize/node_modules/validator/test/client-side.js",
 		"/Users/shahmeernavid/Desktop/jscms/node_modules/sequelize/node_modules/bluebird/js/main/synchronous_inspection.js",
 		"/Users/shahmeernavid/Desktop/jscms/node_modules/sequelize/.editorconfig",
@@ -531,9 +568,6 @@
 		"/Users/shahmeernavid/Desktop/jscms/node_modules/sequelize/node_modules/sql/test/dialects/clause-ordering-tests.js",
 		"/Users/shahmeernavid/Desktop/jscms/node_modules/express/node_modules/debug/component.json",
 		"/Users/shahmeernavid/Desktop/jscms/node_modules/sequelize/node_modules/moment/lang/zh-cn.js",
-		"/Users/shahmeernavid/Desktop/jscms/config/development.json",
-		"/Users/shahmeernavid/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/shahmeernavid/Desktop/jscms/server.js",
 		"/Users/shahmeernavid/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/shahmeernavid/Desktop/kimono/config/env/all.js",
 		"/Users/shahmeernavid/Desktop/kimono/app/models/api.js",
@@ -625,33 +659,7 @@
 		"/Users/shahmeernavid/Desktop/kimono/public/js/angular/directives.js",
 		"/Users/shahmeernavid/Desktop/kimono/dormantusers.js",
 		"/Users/shahmeernavid/Desktop/kimono/icon-key.svg",
-		"/Users/shahmeernavid/Desktop/kimono/extension/img/icon-search.svg",
-		"/Users/shahmeernavid/Desktop/kimono/public/js/angular/app.js",
-		"/Users/shahmeernavid/Desktop/kimono/public/partials/footer.html",
-		"/Users/shahmeernavid/Desktop/kimono/public/lib/js/base64.js",
-		"/Users/shahmeernavid/Desktop/kimono/public/lib/js/angularjs-crypto.js",
-		"/Users/shahmeernavid/Desktop/kimono/public/lib/js/CryptoJSPlugin.js",
-		"/Users/shahmeernavid/Desktop/kimono/public/lib/js/angular-loader.min.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/newrelic/api.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/browserify/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/util.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/coffee-script/node_modules/mkdirp/test/return_sync.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/newrelic/node_modules/continuation-local-storage/test/async-no-run-queue-multiple.tap.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/uglify-js/test/compress/concat-strings.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/browserify/node_modules/browser-pack/node_modules/combine-source-map/node_modules/source-map/test/source-map/test-util.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/coffee-script/node_modules/mkdirp/test/return.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/iconv/deps/libiconv/lib/canonical_osf1_sysosf1.h",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/forever/node_modules/forever-monitor/examples/env-vars.js",
-		"/Users/shahmeernavid/Desktop/kimono/public/partials/learn/advanced-mode.html",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/iconv/deps/libiconv/m4/fcntl-o.m4",
-		"/Users/shahmeernavid/Desktop/kimono/jakelib/fixtures.jake",
-		"/Users/shahmeernavid/Desktop/kimono/app/views/generic.jade",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/mongoose/examples/globalschemas/gs_example.js",
-		"/Users/shahmeernavid/Desktop/kimono/lib/website/services/common.js",
-		"/Users/shahmeernavid/Desktop/kimono/node_modules/browserify/test/comment.js",
-		"/Users/shahmeernavid/Desktop/kimono/compress.js",
-		"/Users/shahmeernavid/Desktop/kimono/casperauth.js",
-		"/Users/shahmeernavid/Desktop/kimono/lib/extractor/controllers/apiPanelController.js",
-		"/Users/shahmeernavid/Desktop/Angular Kimonify/public/js/services/collections.js"
+		"/Users/shahmeernavid/Desktop/kimono/extension/img/icon-search.svg"
 	],
 	"find":
 	{
@@ -659,17 +667,74 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 121.0,
 		"where_history":
 		[
+			"/Users/shahmeernavid/Desktop/jscms,-node_modules/*, -public/components/*",
+			"/Users/shahmeernavid/Desktop/jscms",
 			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"Sequelize",
+			"sequelize",
+			"title",
+			"allow",
+			"del.",
+			"model",
+			"post",
+			"hasManny",
+			"user",
+			"done",
+			"text",
+			"STRING",
+			"title",
+			"caminte",
+			"(function",
+			"(function (){",
+			"user",
+			"password",
+			"email",
+			");\n",
+			"send",
+			"arguments",
+			"user",
+			"combined",
+			"UserController",
+			"redirect",
+			"awesome",
+			"return",
+			"options",
+			"cookie",
+			"cookieParser",
+			"express",
+			"salt",
+			"send",
+			"test",
+			"_",
+			"db",
+			"sequelize",
+			"function",
+			"to",
+			"saving",
+			"config",
+			"success",
+			"callback",
+			"continue",
+			"mysql",
+			"yes",
+			"title",
+			"STRING",
+			"Sequ",
+			"parame",
+			"underscore",
+			"user",
+			"name",
+			"node_modules",
 			"locahost",
 			"password",
 			"username",
@@ -742,62 +807,7 @@
 			"StatusController",
 			"ApiStatus",
 			"ApiSettingsController",
-			"ApiStatusController",
-			"app.control",
-			"ApiSettingsControl",
-			"pathComponents",
-			"timeSince",
-			"{{ timeSince(api.versions[0]) }}",
-			"pathComponents",
-			"url-breakdown",
-			"strategies.process",
-			".process",
-			"process",
-			"open",
-			"page",
-			"page.open",
-			"beginExtraction",
-			"debug",
-			"admin",
-			"crypto",
-			"res.render('router",
-			"disqus.html",
-			"algoliasearch.js",
-			"Mozilla",
-			" },",
-			"},",
-			"text",
-			"{",
-			"text",
-			"property1",
-			"href",
-			"radio",
-			"datepicker",
-			"\"",
-			"grey",
-			"datepicker.html",
-			"timer-button",
-			"template/timepicker/timepicker.html",
-			"timepicker",
-			"popover",
-			"$t",
-			"template/popover/popover.html",
-			"\"",
-			"template/timepicker/timepicker.html",
-			"timepicker",
-			"popover",
-			"},",
-			"holder",
-			"red",
-			"darken(@background-color",
-			"!important\n	background-color",
-			"background-color ",
-			"background-color",
-			"event.className",
-			"batman-black",
-			"= $scope.formData",
-			"$scope.formData.start",
-			"$modalInstance.dismiss()"
+			"ApiStatusController"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -819,71 +829,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "models/user.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 213,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								202,
-								202
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -932,8 +885,64 @@
 		"selected_items":
 		[
 			[
+				"cont",
+				"models/content.js"
+			],
+			[
+				"",
+				"models/user.js"
+			],
+			[
+				"config",
+				"config/env/development.json"
+			],
+			[
+				"user",
+				"models/user.js"
+			],
+			[
+				"dbinit",
+				"db_init.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				".bowe",
+				".bowerrc"
+			],
+			[
 				"server",
 				"server.js"
+			],
+			[
+				"lo",
+				"config/auth/local.js"
+			],
+			[
+				"ro",
+				"routes.js"
+			],
+			[
+				"local",
+				"config/auth/local.js"
+			],
+			[
+				"deve",
+				"config/env/development.json"
+			],
+			[
+				"loc",
+				"config/auth/local.js"
+			],
+			[
+				"develop",
+				"config/development.json"
 			],
 			[
 				"apis",
@@ -966,10 +975,6 @@
 			[
 				"express",
 				"config/express.js"
-			],
-			[
-				"",
-				"lib/website/controllers/api_detail.js"
 			],
 			[
 				"api-sett",
@@ -1060,10 +1065,6 @@
 				"config/env/development.json"
 			],
 			[
-				"deve",
-				"config/env/development.json"
-			],
-			[
 				"develo",
 				"config/env/development.json"
 			],
@@ -1126,7 +1127,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 342.0,
+	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

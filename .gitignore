@@ -19,8 +19,15 @@ build/Release
 
 # Dependency directory
 node_modules
-public/components
+lib/bower_components
 
 # Users Environment Variables
 .lock-wscript
+*.sublime-*
+
+#built files
+public/js/main.js
+public/js/main.min.js
+public/css/style.min.css
+public/css/style.css
 

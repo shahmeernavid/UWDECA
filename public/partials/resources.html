@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="content resources">
+		<div class="row" ng-repeat="row in materials">
+			<div class="col-md-4" ng-repeat="item in row">
+				<h4 class="icon {{item.type}}">{{item.heading}}</h4>
+				<div class="divider top"></div>
+				<ul>
+					<li ng-repeat="source in item.data">
+						<a target="_blank" href="{{source.link}}">{{source.title}}</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,35 @@
+<!-- Maybe put home boolean on scope? path.replace('/', '').length is long and hard to interpret -->
+<nav class="header" ng-class="{'home': !path.replace('/', '').length}">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapsed-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" target="_self" ng-show="path.replace('/', '').length" href="/"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse collapsed-navbar" style="box-shadow:none;">
+      <ul class="navbar-nav menu">
+	      <li ng-repeat="item in menu" ng-class="{'dropdown': item.dropdown}">
+	      	<a target="{{item.target || '_self'}}" href="{{item.link || '/' + item.title}}">{{item.title}}</a>
+	      	<ul ng-if="item.dropdown" class="dropdown-menu">
+	          <li ng-repeat="dropdownItem in item.dropdown">
+	          	<a target="{{dropdownItem.target || '_self'}}" href="{{ dropdownItem.link || '/' + item.title + '/' + dropdownItem.title.replace(' ', '_')}}">
+	          		{{dropdownItem.title}}
+	          	</a>
+	          </li>
+	        </ul>
+	      </li>
+      </ul>
+      <ul ng-show="path.replace('/', '').length" class="social navbar-nav navbar-right">
+				<li class="icon facebook"><a target="_blank" href="{{facebookLink}}"></a></li>
+				<li class="icon twitter"><a target="_blank" href="{{twitterLink}}"></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>

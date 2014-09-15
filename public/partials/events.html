@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="content">
+		<tabset type="'pills'">		
+			<tab heading="Internal Events" active="active" disabled="disabled">
+				<div class="events">
+					<div ng-repeat="event in internal">
+			     	<h3><a target="_blank" href="event.link || ''"ng-class="{'disabled' : !event.link}">{{event.title}}</a></h3>
+						<div class="meta">
+							<p class="date"><span class="glyphicon glyphicon-calendar"></span>{{event.date}}</p>
+							<p class="location"><span class="glyphicon glyphicon-globe"></span>{{event.location}}</p>
+						</div>
+			     	<p ng-show="event.desc.length">{{event.desc}}</p>
+						<div class="divider top"></div>
+					</div>
+				</div>
+				<p ng-hide="internal.length">More information coming soon!</p>
+
+	    </tab>
+	    <tab heading="External Events" active="active" disabled="disabled">
+	    	<div class="events">
+	    		<div ng-repeat="event in external">
+			     	<h3><a target="_blank" href="event.link || ''" ng-class="{'disabled' : !event.link}">{{event.title}}</a></h3>
+						<div class="meta">
+							<p class="date"><span class="glyphicon glyphicon-calendar"></span>{{event.date}}</p>
+							<p class="location"><span class="glyphicon glyphicon-globe"></span>{{event.location}}</p>
+						</div>
+			     	<p ng-show="event.desc.length">{{event.desc}}</p>
+						<div class="divider top"></div>
+					</div>
+	    	</div>
+	      <p ng-hide="external.length">More information coming soon!</p>
+	    </tab>
+	  </tabset>
+	</div>
+</div>

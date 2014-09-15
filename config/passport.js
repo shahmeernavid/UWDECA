@@ -1,7 +1,8 @@
 var _ = require('underscore'),
 		fs = require('fs'),
 		passport = require('passport'),
-		User = db.model('User');
+		mongoose = require('mongoose'),
+		User = mongoose.model('User');
 
 module.exports = function (app){
 
