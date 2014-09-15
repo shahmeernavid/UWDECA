@@ -1,12 +1,12 @@
 {
-  "name": "jscms",
+  "name": "uwdeca",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "postinstall": "./node_modules/jake/bin/cli.js compile --trace"
+    "postinstall": "jake compile --trace && bower install"
   },
   "author": "Shahmeer Navid",
   "license": "ISC",
@@ -27,7 +27,8 @@
     "mongoose": "~3.8.15",
     "request": "~2.42.0",
     "jake": "~8.0.8",
-    "browserify": "~5.11.2"
+    "browserify": "~5.11.2",
+    "bower": "~1.3.10"
   },
   "devDependencies": {}
 }
