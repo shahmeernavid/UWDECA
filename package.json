@@ -27,8 +27,7 @@
     "mongoose": "~3.8.15",
     "request": "~2.42.0",
     "jake": "~8.0.8",
-    "browserify": "~5.11.1"
+    "browserify": "~5.11.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
