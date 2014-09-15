@@ -30,6 +30,7 @@ public/js/main.js
 public/js/main.min.js
 public/css/style.min.css
 public/css/style.css
+#TODO: fix heroku build script
 
 
 #OSX
