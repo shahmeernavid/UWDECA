@@ -31,3 +31,6 @@ public/js/main.min.js
 public/css/style.min.css
 public/css/style.css
 
+
+#OSX
+.DS_STORE

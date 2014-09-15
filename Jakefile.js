@@ -15,23 +15,23 @@ var concat = function (dirsOrFiles){
 
 	var output = '';
 	_.each(dirsOrFiles, function (elem){
-		if(fs.statSync(elem).isFile()){
+		if(fs.statSync(elem).isFile() && elem.indexOf('.DS_STORE') > -1){
 			output += fs.readFileSync(elem) + '\n';
 		}
 		else if(fs.statSync(elem).isDirectory()){
 			var files = getFiles(elem);
 			_.each(files, function (file){
-				if(fs.statSync(file).isFile()){
+				if(fs.statSync(file).isFile() && elem.indexOf('.DS_STORE') > -1){
 					output += fs.readFileSync(file) + '\n';
 				}
 			});
 		}
-		else{
+		else if(elem.indexOf('.DS_STORE') > -1){
 			throw new Error('Incorrect input into concat! - one of the list items was neither a dir or file');
 		}
 		
 	});
-
+	// console.log(output);
 	return output;
 };
 
