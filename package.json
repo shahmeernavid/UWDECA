@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "postinstall": "jake compile --trace && bower install"
+    "postinstall": "bower install && jake compile --trace "
   },
   "author": "Shahmeer Navid",
   "license": "ISC",
