@@ -4,7 +4,11 @@ var fs = require('fs'),
 
 
 var getFiles = function (dir){
-	return _.map(fs.readdirSync(dir), function (file){ return dir + file; });
+	return _.map(_.reject(fs.readdirSync(dir), function (path){
+	  return (/(^|.\/)\.+[^\/\.]/g).test(path);
+	}), function (file){
+		return dir + file; 
+	});
 };
 
 var concat = function (dirsOrFiles){
@@ -15,23 +19,24 @@ var concat = function (dirsOrFiles){
 
 	var output = '';
 	_.each(dirsOrFiles, function (elem){
-		if(fs.statSync(elem).isFile() && elem.indexOf('.DS_STORE') > -1){
+		if(fs.statSync(elem).isFile() && elem.indexOf('.DS_STORE') == -1){
 			output += fs.readFileSync(elem) + '\n';
 		}
 		else if(fs.statSync(elem).isDirectory()){
 			var files = getFiles(elem);
 			_.each(files, function (file){
-				if(fs.statSync(file).isFile() && elem.indexOf('.DS_STORE') > -1){
+				if(fs.statSync(file).isFile() && file.indexOf('.DS_STORE') == -1){
+					console.log(file);
 					output += fs.readFileSync(file) + '\n';
 				}
+				console.log(elem);
 			});
 		}
-		else if(elem.indexOf('.DS_STORE') > -1){
+		else if(elem.indexOf('.DS_STORE') == -1){
 			throw new Error('Incorrect input into concat! - one of the list items was neither a dir or file');
 		}
-		
 	});
-	// console.log(output);
+	
 	return output;
 };
 
