@@ -2,7 +2,7 @@
 	<div class="content execs">
 		<div ng-repeat="row in execs" class="row">
 			<div class="col-md-3 exec" ng-repeat="exec in row">
-				<img src="{{'/img/execs/' + exec.name.replace(' ', '_') + '.png'}}" alt="{{exec.name}}">
+				<img src="{{'/img/execs/' + exec.name.replace(' ', '_') + '.jpg'}}" alt="{{exec.name}}">
 				<h4>{{exec.name}}</h4>
 				<h5>{{exec.level}}</h5>
 				<a href="mailto:{{exec.name.replace(' ', '.') + '@uwaterloo.ca'}}">{{exec.name.replace(' ', '.') + '@uwaterloo.ca'}}</a>

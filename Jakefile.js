@@ -26,10 +26,8 @@ var concat = function (dirsOrFiles){
 			var files = getFiles(elem);
 			_.each(files, function (file){
 				if(fs.statSync(file).isFile() && file.indexOf('.DS_STORE') == -1){
-					console.log(file);
 					output += fs.readFileSync(file) + '\n';
 				}
-				console.log(elem);
 			});
 		}
 		else if(elem.indexOf('.DS_STORE') == -1){
