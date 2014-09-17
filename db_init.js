@@ -1,7 +1,7 @@
 var _ = require('underscore'),
 		fs = require('fs'),
-		env = process.env.TYPE || 'development',
-		config = require('./config/env/' + env),
+		env = process.env.TYPE || 'production',
+		config = require('./config/env/' + env),  // TODO: don't put production config in version control
 		mongoose = require('mongoose');
 
 

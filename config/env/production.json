@@ -4,5 +4,5 @@
 		"port" : 11888,
 		"host" : "redistogo:4c730f02d6f398ed2c39fe3e0779a95c@barreleye.redistogo.com"
 	},
-	"db": "mongodb://heroku:203d67a311c31e096e2884062ee90b77@kahana.mongohq.com:10041/app29137868"
+	"db": "mongodb://uwdeca:ShahmeerIsAwesome@kahana.mongohq.com:10041/app29137868"
 }
