@@ -1,6 +1,6 @@
 var _ = require('underscore'),
 		fs = require('fs'),
-		env = process.env.type || 'development',
+		env = process.env.TYPE || 'development',
 		config = require('./config/env/' + env),
 		mongoose = require('mongoose');
 
