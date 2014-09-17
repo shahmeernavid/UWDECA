@@ -1,5 +1,5 @@
 {
-	"port" : "", // heroku assigns a port #
+	"port" : 69, // heroku assigns a port #
 	"redis": {
 		"port" : 11888,
 		"host" : "redistogo:4c730f02d6f398ed2c39fe3e0779a95c@barreleye.redistogo.com"
