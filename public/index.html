@@ -9,7 +9,7 @@
 	<div ng-app="uwdeca" ng-controller="mainController">
 		<div class="bg">
 		</div>
-		<div ng-include="url + '/partials/header.html'"></div>
+		<div ng-cloak ng-include="url + '/partials/header.html'"></div>
 		<div class="intro container" ng-show="path.replace('/', '').length">
 			<div class="row">
 				<div class="col-md-6 page-name">
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 		</div>
-		<div ng-view></div>	
+		<div ng-cloak ng-view></div>	
 	</div>
 
 	<script src="/js/main.js"></script>
