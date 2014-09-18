@@ -10,7 +10,7 @@
 		<div class="bg">
 		</div>
 		<div ng-cloak ng-include="url + '/partials/header.html'"></div>
-		<div class="intro container" ng-show="path.replace('/', '').length">
+		<div ng-cloak class="intro container" ng-show="path.replace('/', '').length">
 			<div class="row">
 				<div class="col-md-6 page-name">
 					<p>{{ path.substring(1).split('/').join(' » ') }}</p>
