@@ -31,7 +31,7 @@ a.disabled{
 		rgba(0, 0, 0, 0.3), 
 		rgba(0, 0, 0, 0.3)
 		),
-	url("/img/home_bg.png") 50% 0;
+	url("/img/home_bg.jpg") 50% 0;
 	background-size: cover;
 /*	-webkit-filter: blur(3px);
   -moz-filter: blur(3px);
