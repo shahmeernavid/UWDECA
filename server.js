@@ -1,4 +1,5 @@
-var env = process.env.type || 'development',
+var require('newrelic'),
+		env = process.env.type || 'development',
 		config = require('./config/env/' + env),
 		express = require('express'),
 		app = express(),
