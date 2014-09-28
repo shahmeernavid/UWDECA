@@ -1,5 +1,4 @@
-var require('newrelic'),
-		env = process.env.type || 'development',
+var env = process.env.type || 'development',
 		config = require('./config/env/' + env),
 		express = require('express'),
 		app = express(),
@@ -11,6 +10,7 @@ var require('newrelic'),
 		redis = require('redis'),
 		logger = require('morgan');
 
+require('newrelic');
 
 // db initialization asynchronous
 var go = function (){
